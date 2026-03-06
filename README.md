@@ -52,12 +52,7 @@ O sistema está expondo informações sensíveis (email e senha) no console do n
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/credenciais-expostas.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/b1fc8971-7a1e-44ac-a187-17975bf820ab
 
 **Resultado Atual:**  
 O sistema expõe as credenciais do usuário (email e senha) no console do navegador através de funções de debug não removidas do código, permitindo que sejam visualizadas por qualquer pessoa que abra o console.
@@ -79,12 +74,7 @@ A página de sucesso pode ser acessada diretamente através da URL, sem que o us
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/pagina-sucesso.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/6e1a226e-1d58-44ef-b72d-14854912ffe3
 
 **Resultado Atual:**  
 O sistema carrega a página de sucesso normalmente mesmo sem que o usuário tenha realizado login ou cadastro, permitindo acesso não autorizado.
@@ -106,12 +96,7 @@ Os formulários de login e cadastro não possuem validação adequada dos dados 
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/campos-obrigatoriedade.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/46443b49-ce44-4352-84e6-f70100822968
 
 **Resultado Atual:**  
 O sistema permite fazer login e criar conta sem validar se os campos foram preenchidos, processando requisições com dados vazios ou incompletos.
@@ -133,12 +118,7 @@ O campo de email permite inserir valores que não seguem o formato padrão de en
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/campo-email.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/680385c4-b53d-4529-b537-f819c22394dc
 
 **Resultado Atual:**  
 O sistema aceita valores inválidos como email sem apresentar erro.
@@ -160,12 +140,7 @@ O sistema não verifica se a senha inserida corresponde à confirmação de senh
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/campo-senha.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/4745ec12-0ed3-45bb-91a8-087373c3e65e
 
 **Resultado Atual:**  
 O sistema permite continuar o cadastro mesmo com senhas diferentes.
@@ -247,12 +222,7 @@ O campo de telefone permite a inserção de letras e outros caracteres não num�
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/campo-telefone.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/32ddcfe3-373c-4dcf-8cdd-22e1dfd22fb4
 
 **Resultado Atual:**  
 O sistema aceita letras no campo de telefone sem apresentar erro de validação.
@@ -274,12 +244,7 @@ O sistema permite criar várias contas utilizando exatamente os mesmos dados (em
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/contas-iguais.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/69a4f0c4-3ed9-405c-a295-02dc6e5ef0e6
 
 **Resultado Atual:**  
 O sistema permite criar múltiplas contas com todos os dados idênticos (email, nome, telefone e senha) sem apresentar nenhum erro ou aviso.
@@ -301,12 +266,7 @@ No campo de confirmação de senha, o ícone para visualizar a senha (olho) apar
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/visualizar-senha.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/dd44779d-7dd8-4fd5-bdf3-468e8d993ba3
 
 **Resultado Atual:**  
 O sistema remove o ícone de visualização da senha permanentemente após o campo perder o foco pela primeira vez, fazendo com que o ícone só reapareça caso o usuário apague completamente a senha e digite novamente desde o início.
