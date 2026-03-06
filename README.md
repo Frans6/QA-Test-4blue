@@ -30,12 +30,7 @@ As credenciais dos usuários (email e senha) estão sendo armazenadas em texto p
 
 **Passos para Reproduzir:**
 
-<div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/session-storage.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
-</div>
+https://github.com/user-attachments/assets/f273dd75-257c-413d-9e9a-780228f59324
 
 **Resultado Atual:**  
 O sistema armazena todas as contas criadas no session storage com email e senha em texto puro, permitindo que sejam visualizadas diretamente por qualquer pessoa com acesso ao navegador.
