@@ -163,10 +163,7 @@ Os campos de telefone e confirmar senha estão sobrepostos aos campos anteriores
 **Passos para Reproduzir:**
 
 <div align="center">
-  <video width="640" height="300" controls>
-    <source src="data/campos-sobrepostos.mp4" type="video/mp4">
-    Seu navegador não suporta a tag de vídeo.
-  </video>
+  <img src="data/campos-sobrepostos.png" alt="Campos sobrepostos no formulário" width="640">
 </div>
 
 **Resultado Atual:**  
